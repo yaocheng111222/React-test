@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'antd/dist/antd.css'
 import { Input, Button, List } from 'antd'
 
-import store from '../store'
+import store from './store/index'
 
 const data = [
     '早8点开晨会，分配今天的开发工作',
